@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH -n 4 
+#SBATCH --mem=20G 
+#SBATCH -t 48:00:00
+
+for x in `cat *List_subjects.txt*`; do ls /users/dkim39/data/dkim39/reconall_instructions/data/PD_t1_reconall_data/$x/*/*/*/*_1_S*; done | parallel --jobs 4 recon-all -s {.} -i {} -all
