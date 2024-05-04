@@ -2,7 +2,7 @@
 This is a tutorial to running FreeSurfer's recon-all using T1 images. We will be using OSCAR clusters.
 
 ## Getting started
-First, download the example data that we will be using here: https://drive.google.com/drive/folders/1wUoKBlpZU2t6FZ4zGbQE-E6pd52g142Q?usp=sharing
+First, download the example data that we will be using here: https://drive.google.com/drive/folders/1AG2xq0uPl8BSQZ_SY-HXH6SOVvqwMp0o?usp=sharing
 
 You want to SSH into your cluster. You can do it through the GUI (https://ood.ccv.brown.edu/pun/sys/dashboard) or through your terminal. I recommend using the terminal as it is less glitchy and easier to copy and paste functions.
 
